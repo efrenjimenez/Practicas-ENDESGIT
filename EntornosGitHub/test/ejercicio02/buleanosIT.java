@@ -43,8 +43,8 @@ public class buleanosIT {
     @Test
     public void testDevolverBuleano() {
         System.out.println("devolverBuleano");
-        boolean a = true;
-        boolean b = false;
+        boolean a = false;
+        boolean b = true;
         Buleanos instance = new Buleanos();
         int expResult = -1;
         int result = instance.devolverBuleano(a, b);

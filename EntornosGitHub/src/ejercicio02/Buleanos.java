@@ -24,10 +24,10 @@ public class Buleanos {
      */
     public int devolverBuleano(boolean a, boolean b){
         int aux = 0;
-        if(a || b){
+        if(a && b){
             aux = 1;
         }
-        else if(!a || !b){
+        else{
             aux= -1;
         }
         
